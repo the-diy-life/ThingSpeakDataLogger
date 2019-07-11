@@ -12,7 +12,7 @@ We use wifi manager library by tzapu to manage the changes in the WiFi settings 
 ### DHTesp 
 We use DHTesp library file by “beegee Tokyo” to read the temperature and humidity easily from DHT11 sensor, thanks to beegee Tokyo. To install [DHTesp library](https://github.com/beegee-tokyo/DHTesp)
 
-----
+
 ## How It Works
 The DHT11 sensor connected to the ESP8266 reads the temperature and the humidity. The esp8266 connects to the ThingSpeak website through WiFi and sends the readings to the fields channel. We setup a Webserver on the ESP8266 to configure the ThingSpeak logging parameters: Start/Stop sending the data. Configure the frequency of sending. Configure ThingSpeak API key. All this can be done through the “control settings” HTML page that’s hosted in ESP8266 web server.
 
