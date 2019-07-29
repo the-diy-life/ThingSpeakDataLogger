@@ -6,7 +6,7 @@
 > This project uses ESP8266 module and DHT11 temperature and humidity sensor with Arduino IDE to send temperature and humidity readings to the ThingSpeak website. 
 
 ## External Libraries 
-###Wifi Manager 
+## Wifi Manager 
 We use wifi manager library by tzapu to manage the changes in the WiFi settings (SSID and Password). So thanks to tzapu. To install wifi manager [library](https://github.com/tzapu/WiFiManager).
 
 ### DHTesp 
